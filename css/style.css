@@ -418,12 +418,23 @@ nav .container a {
   margin-bottom: 25px;
 }
 
+.contact .container form h3 {
+  text-align: center;
+  color: #aa3a3a;
+  font-weight: bolder;
+}
+
+.contact .container form div {
+  margin-top: 40px;
+  margin-bottom: -10px;
+}
+
 .contact .container form h2 {
   font-size: 35px;
   margin-left: 10px;
 }
 
-.contact .container label[for="fname"] {
+.contact .container label[for="name"] {
   padding: 10px;
   margin-top: 20px;
 }
@@ -487,7 +498,7 @@ nav .container a {
   outline: none;
 }
 
-.contact .container input[type="submit"] {
+.contact .container button[type="submit"] {
   border: none;
   background-color: #aa3a3a;
   padding: 10px 10px;
@@ -498,7 +509,7 @@ nav .container a {
   border: 1px solid transparent;
 }
 
-.contact .container input[type="submit"]:hover {
+.contact .container button[type="submit"]:hover {
   border: 1px solid #aa3a3a;
   background-color: #fff;
   color: #aa3a3a;
