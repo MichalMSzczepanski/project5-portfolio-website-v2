@@ -340,14 +340,14 @@ $message_sent= true;
                 <br>
                 <p class="font-weight-bold"><strong>I'll do my best to answer in a giffy.</strong> </p>
              </div>
-            <form method="post" action=#contact>
-            <!-- <?php echo $_SERVER['PHP_SELF']; ?> -->
+            <form method="post" action=#TYP>
+            
 
               <?php
                 if($message_sent):
               ?>
 
-              <h3>Thank you for reaching out. <br> I'll be in touch as soon as possible.</h3>
+              <h3 id="TYP">Thank you for reaching out. <br> I'll be in touch as soon as possible.</h3>
 
               <?php
               else:
